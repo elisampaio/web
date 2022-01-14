@@ -7,9 +7,11 @@ $(".item").click( function() {
   var width = $(window).width();
   var h = Math.ceil((w * 15) / 100);
   var iW = Math.ceil(($(this).height() * 100) / 100);
-  var th = $(this).height();
 
-  var size = w * 0.15;
+  
+  var th = Math.floor($(this).height());
+  var size =  Math.floor(w * 0.15);
+  
   console.log(th);
   console.log(size);
   // console.log(w);
