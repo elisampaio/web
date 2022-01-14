@@ -19,7 +19,7 @@ $(".item").click( function() {
   // console.log(iW);
   // console.log(width);
 
-    if (th == size) {
+    if (th <= (size + 2) && th > (size - 2)) {
       console.log('open');
       $(this).css({
         'max-height': '1500px'
