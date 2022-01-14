@@ -28,6 +28,7 @@ $(".item").click( function() {
         'display': 'inline-block'
       });
     } else {
+        alert("sorry :'(");
       $(this).css({
         'max-height': '15vh'
       });
